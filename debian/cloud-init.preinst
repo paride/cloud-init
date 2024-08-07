@@ -132,7 +132,7 @@ azure_apply_new_instance_id_1506187() {
 
 WARNING: Failed to migrate old instance ID to new instance ID.
     Cloud-init may detect this instance as a new instance upon reboot.
-    Please see: https://bugs.launchpad.net/bug/1506187
+    Please see: https://github.com/canonical/cloud-init/issues/2587
 
 EOM
 
@@ -145,7 +145,7 @@ AZURE: this instance uses an unstable instance ID. Cloud-init will
         to:
             ${new_instance_id}
     For more information about this change, please see:
-    https://bugs.launchpad.net/bug/1506187
+    https://github.com/canonical/cloud-init/issues/2587
     https://azure.microsoft.com/en-us/blog/accessing-and-using-azure-vm-unique-id
 
 EOM

@@ -1,7 +1,7 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: cloud-init
 Upstream-Contact: cloud-init-dev@lists.launchpad.net
-Source: https://launchpad.net/cloud-init
+Source: https://github.com/canonical/cloud-init/
 
 Files: *
 Copyright: 2010, Canonical Ltd.
